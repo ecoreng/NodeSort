@@ -1,0 +1,16 @@
+{
+	"name": "NodeSort",
+	"description": "Sort nodes from admin panel",
+
+	"author": "ecoreng",
+	"authorEmail": "me@ecor.me",
+	"authorUrl": "http://ecor.me",
+
+	"dependencies": {
+		"plugins": [
+			"acl",
+			"extensions",
+			"nodes"
+		]
+	}
+}
