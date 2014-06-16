@@ -5,7 +5,7 @@ App::uses('ModelBehavior', 'Model');
 class NodeSortBehavior extends ModelBehavior
 {
 
-    public function beforeFind($Model, $query)
+    public function beforeFind(Model $Model, $query)
     {
         if (get_class($Model) == "Node") {
             if($query['order'][0] == 'Node.created DESC') {
